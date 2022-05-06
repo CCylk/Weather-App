@@ -1,0 +1,97 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+/* Weather card */
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.input {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.submit {
+  padding: 15px 30px;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  border-radius: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight:bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.input-text {
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  border-radius: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.container {
+  position: absolute;
+  right: 40%;
+  bottom: 25%;
+}
+
+.card {
+  width: 25vw;
+  height: 55vh;
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+
+.card h1 {
+  padding-top: 40px;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.card p {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.desc {
+  font-size: 40px;
+}
+
+.temp {
+  font-size: 70px;
+}
+
+.date {
+  font-size: 70px;
+}
+
+/* icons */
+
+.clear-sky, .few-clouds, .s-clouds, .b-clouds, .s-rain, .rain, .thunder, .snow, .mist, .clear-sky-n, .few-clouds-n, .s-clouds-n, .b-clouds-n, .s-rain-n, .rain-n, .thunder-n, .snow-n, .mist-n{
+  opacity: 0;
+  position: absolute;
+  right: 33%;
+  bottom: 0%;
+  height: 30%;
+}
+
+.clear-sky.show, .few-clouds.show, .s-clouds.show, .b-clouds.show, .s-rain.show, .rain.show, .thunder.show, .snow.show, .mist.show, .clear-sky-n.show, .few-clouds-n.show, .s-clouds-n.show, .b-clouds-n.show, .s-rain-n.show, .rain-n.show, .thunder-n.show, .snow-n.show, .mist-n.show{
+  opacity: 1;
+}
+
